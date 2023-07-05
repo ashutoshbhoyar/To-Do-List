@@ -1,0 +1,33 @@
+#list1 .form-control {
+  border-color: transparent;
+}
+#list1 .form-control:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+#list1 .select-input.form-control[readonly]:not([disabled]) {
+  background-color: rgb(251,225,189);
+}
+
+#list1 {
+  background-color:rgb(251,225,189);
+  width: 600px;
+  margin-left: 30%;
+}
+
+#d1 {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+
+  box-shadow: 5px,5px,5px;
+}
+
+#todo {
+  background-color: rgb(131,58,180);
+}
+
